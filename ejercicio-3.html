@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <style media="screen" type="text/css">
+        .bandera {
+        width: 500px;
+        height: 350px;
+        background-color: red;
+        position:relative;
+        margin: 10px;
+        border: 1px solid black;
+        float: left;
+            }
+
+        .bandera--white {
+            background-color: #fff;
+            }
+
+        .bandera__franja {
+            position: absolute;
+            z-index: 1;
+            }
+
+        .bandera__franja--yellow {
+            background-color: yellow;
+            height: 40%;
+            width: 100%;
+            top: 30%;
+            }
+
+        .bandera__franja--white {
+            background-color: #fff;
+            }
+
+        .bandera__franja--vertical {
+            height: 100%;
+            width: 30px;
+            left: 30%;
+            }
+
+        .bandera__franja--horizontal {
+            height: 30px;
+            width: 100%;
+            top: 135px;
+        }
+
+        .bandera__franja--emiratos {
+            height: 33.3%;
+            width: 75%;
+            right: 0;
+            }
+
+        .bandera__franja--green {
+            background-color: green;
+            top: 0;
+            }
+
+        .bandera__franja--middle {
+            top: 33.3%;
+            }   
+        .bandera__franja--bottom {
+            bottom: 0;
+            }
+
+        .bandera__franja--black {
+            background-color: black;
+            }
+
+        .bandera__circulo--red {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            border-radius: 50%;
+            top: 100px;
+            left: 175px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bandera">
+            <div class="bandera__franja bandera__franja--yellow">
+            </div>
+        </div>
+        <div class="bandera">
+            <div class="bandera__franja bandera__franja--white bandera__franja--vertical">
+            </div>
+            <div class="bandera__franja bandera__franja--white bandera__franja--horizontal">
+            </div>
+        </div>
+        <div class="bandera">
+            <div class="bandera__franja bandera__franja--green bandera__franja--emiratos">
+            </div>
+            <div class="bandera__franja bandera__franja--white bandera__franja--emiratos bandera__franja--middle">
+            </div>
+            <div class="bandera__franja bandera__franja--black bandera__franja--emiratos bandera__franja--bottom">
+            </div>
+        </div>
+        <div class="bandera bandera--white">
+            <div class="bandera__franja bandera__circulo--red">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
